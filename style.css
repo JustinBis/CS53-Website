@@ -1,5 +1,5 @@
 body{
-	color:#ffffff;
+	color:#FFFFFF;
 	background-color:#000000;
 	font-weight:bold;
 	background-image: url(files/raining_code.gif);
@@ -106,7 +106,6 @@ a{
 }
 
 .homework-list{
-	color: #FFF;
 	display: block;
 	max-width: 340px;
 	margin: 0px auto;
