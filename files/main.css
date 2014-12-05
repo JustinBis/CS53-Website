@@ -1,0 +1,90 @@
+a, a:visited {
+  color: #9fa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+li.selected a:hover {
+  color: #9fa
+}
+
+.selected {
+  background-color: #033;
+}
+
+body {
+  color:#ffffff;
+  background-color:#000000;
+  background-image:url(../images/raining_code.gif );
+  background-size: cover;
+  /*font-family:monospace;*/
+  font-weight:bold;
+  padding:5px 20px;
+}
+
+#contentbackground {
+  min-width:670px;
+  max-width:900px;
+  margin:0px auto;
+  padding-top:15px;
+  padding-right:50px;
+  /*background-color:#000000;*/
+  opacity: 1.0;
+}
+
+#content {
+  min-width:670px;
+  max-width:900px;
+  text-align:center;
+  margin:0px auto;
+  padding-top:15px;
+  padding-right:50px;
+  padding-left:15px;
+  padding-bottom:15px;
+  background-image:url(../images/matrix_nodes2.gif);
+  opacity: 1.0;
+  /*background-color:#000000;*/
+  background-repeat:no-repeat;
+  background-position:right top;
+}
+
+#images {
+  text-align:center;
+}
+
+a img {
+  border:none;
+  vertical-align:middle;
+}
+
+#nav {
+  margin-left: 0;
+  padding: 5px;
+  display: table;
+  border: 1px #6A9 solid
+} 
+
+#nav li {
+  margin-left: 0;
+  padding: 3px 15px;
+  /*border-left: 1px solid #6A9;*/
+  list-style: none;
+  display: inline;
+}
+	
+		
+#nav li.first {
+  margin-left: 0;
+  border-left: none;
+  list-style: none;
+  display: inline;
+}
+
+td {
+  border:1px solid #66AA99;
+  text-align:center;
+  padding:8px;
+}

@@ -1,0 +1,66 @@
+body{
+	color:#ffffff;
+	background-color:#000000;
+	font-weight:bold;
+	background-image: url(files/raining_code.gif);
+}
+
+a{
+	color: rgb(153, 255, 170);
+}
+
+.container{
+	margin: 5% auto;
+	width: 970px;
+	padding: 10px;
+	border: 1px white solid;
+	border-radius: 10px;
+	background-color:#000000;
+}
+
+.title{
+	margin: 0 auto;
+	width: 600px;
+}
+
+.nav{
+	margin: 20px auto;
+	height: 20px;
+	width: 970px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.nav > span{
+	display: inline-block;
+	margin: 0px 10px;
+	width: 100px;
+	height: 40px;
+	color: rgb(153, 255, 170);
+	background-color: rgba(20, 200, 80, 0.50);
+	border: 1px #6A9 solid;
+	border-radius: 4px;
+}
+
+.content{
+	clear: both;
+	margin: 50px 80px;
+}
+
+.left{
+	float: left;
+	width: 50%;
+}
+.right{
+	width: 50%;
+	float: left;
+}
+
+.box{
+	width: 100%;
+}
+
+.lower{
+	clear: both;
+	margin-top: 20px;
+}
