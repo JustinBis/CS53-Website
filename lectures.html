@@ -1,8 +1,16 @@
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/redmond/jquery-ui.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css" type="text/css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.js"></script>
+
+
+
+
 </head>
 <body>
 
@@ -16,22 +24,107 @@
 	</div>
 
 	<div class="nav">
-		<a href="index.html"><span><img class="glyph" src="glyphs/home.png" />Home</span></a>
-		<a href="about.html"><span><img class="glyph" src="glyphs/help.png" />About</span></a>
-		<a href="lectures.html"><span><img class="glyph" src="glyphs/lecture.png" />Lectures</span></a>
-		<a href="staff.html"><span><img class="glyph" src="glyphs/team.png" />Staff</span></a>
-		<a href="homework.html"><span><img class="glyph" src="glyphs/homework.png" />Homework</span></a>
-		<a href="labs.html"><span><img class="glyph" src="glyphs/testtube.png" />Labs</span></a>
+		<a href="index.html"><span><img  src="glyphs/home.png" />Home</span></a>
+		<a href="about.html"><span><img  src="glyphs/help.png" />About</span></a>
+		<a href="lectures.html"><span><img  src="glyphs/lecture.png" />Lectures</span></a>
+		<a href="staff.html"><span><img  src="glyphs/team.png" />Staff</span></a>
+		<a href="homework.html"><span><img  src="glyphs/homework.png" />Homework</span></a>
+		<a href="labs.html"><span><img src="glyphs/testtube.png" />Labs</span></a>
 	</div>
 
 	<div class="content">
 
-		<!-- Stuff Goes Here -->
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" id="myModalLabel">The Field Lectures: </h4>
+					</div>
+					<div class="modal-body">
+
+						<ul>
+							<li> Wednesday 9/5: Introduction to Linear Algebra and Fields  <a href="#">Text</a> | <a href="#">Video</a> </li>
+							<li> Friday 9/7: Standard GF2 Fields and Rational Numbers  -> <a href="#">Text</a> | <a href="#">Video</a></li>
+							<li> Monday 9/10: Complex Fields  <a href="#">Text</a> | <a href="#">Video</a></li>
+						</ul>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="row">
+			<div class="large-section col-xs-3">
+
+			</div>
+
+			<div class="large-section col-xs-3">
+
+			</div>
+
+			<div class="large-section col-xs-3">
+
+			</div>
+
+			<div class="large-section col-xs-3">
+
+			</div>
+		</div>
+
+		<ul class="first list-group">
+			<li class="list-group-item">Intro. Linear Algebra</li>
+			<li class="list-group-item"> <a href="#" id="field_link"> 9/5 - 9/10 | Field</a> </li>
+			<li class="list-group-item"> <a href="#"> 9/12 - 9/17 | Vector</a> </li>
+			<li class="list-group-item"> <a href="#"> 9/19 - 10/1 | Matrix</a> </li>
+		</ul>
+
+
+
+		<ul class="list-group">
+			<li class="list-group-item">Linear Equations</li>
+			<li class="list-group-item"> <a href="#"> 10/3 - 10/15 | Basis </a> </li>
+			<li class="list-group-item"> <a href="#"> 10/17 - 10/24  Dimension </a></li>
+			<li class="list-group-item"> <a href="#"> 10/27 - 10/31  Gaussian Elimination </a></li>
+
+		</ul>
+
+		<ul class="list-group">
+			<li class="list-group-item">	Matrix Factorizations</li>
+			<li class="list-group-item"> <a href="#">11/3 - 11/14  Orthogonalization</a> </li>
+			<li class="list-group-item"> <a href="#">11/17 - 11/24 | SVD</a> </li>
+		</ul>
+
+		<ul class="list-group">
+			<li class="list-group-item">Eigen - values/vectors</li>
+			<li class="list-group-item"> <a href="#">12/2 - 12/3  Eigenvectors</a> </li>
+			<li class="list-group-item"> <a href="#">12/15 - 12/10  Eigenvalues</a> </li>
+		</ul>
 
 	</div>
 
+
+
 </div>
 
+
+
+
+<script type="text/javascript">
+		$("a").click(
+			function() {
+				$('#myModal').modal('show');
+				return false;
+			}
+		);
+
+</script>
 
 </body>
 </html>
