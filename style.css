@@ -1,5 +1,5 @@
 body{
-	color:#ffffff;
+	color:#FFFFFF;
 	background-color:#000000;
 	font-weight:bold;
 	background-image: url(files/raining_code.gif);
@@ -40,6 +40,16 @@ a{
 	background-color: rgba(20, 200, 80, 0.50);
 	border: 1px #6A9 solid;
 	border-radius: 4px;
+	text-decoration: none;
+}
+
+.nav > a.this-page {
+	background-color: rgba(6, 63, 31, 0.5);
+}
+
+.nav > a:hover{
+	background-color: rgba(0, 240, 80, 0.5);
+	text-decoration: none;
 }
 
 .content{
@@ -100,10 +110,14 @@ a{
 /*
  * Styles for homework.html
  */
+
+.homework-heading{
+	margin: 0px 0px 30px 0px;
+}
+
 .homework-list{
-	color: #FFF;
 	display: block;
-	max-width: 400px;
+	max-width: 340px;
 	margin: 0px auto;
 }
 
