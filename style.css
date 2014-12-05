@@ -42,6 +42,10 @@ a{
 	border-radius: 4px;
 }
 
+.nav > a.this-page {
+	background-color: rgba(10, 150, 70, 0.50);
+}
+
 .content{
 	clear: both;
 	margin: 50px 80px;
