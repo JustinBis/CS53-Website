@@ -101,8 +101,12 @@ a{
  * Styles for homework.html
  */
 .homework-list{
-	color: #000;
+	color: #FFF;
 	display: block;
-	max-width: 300px;
+	max-width: 400px;
 	margin: 0px auto;
+}
+
+.homework-dl > dd{
+	margin-bottom: 25px;
 }
