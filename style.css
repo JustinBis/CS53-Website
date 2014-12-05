@@ -162,3 +162,16 @@ a{
 	background-color: #222;
 	margin-top:300px;
 }
+
+/*
+* staff style
+*
+*/
+.table th{
+	text-decoration: underline;
+	font-size: larger;
+}
+
+.table td{
+	color: ddd;
+}
