@@ -89,3 +89,16 @@ a{
 .load {
 	opacity: 1;
 }
+
+
+
+
+/*
+ * Styles for homework.html
+ */
+.homework-list{
+	color: #000;
+	display: block;
+	max-width: 300px;
+	margin: 0px auto;
+}
