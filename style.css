@@ -40,6 +40,7 @@ a{
 	background-color: rgba(20, 200, 80, 0.50);
 	border: 1px #6A9 solid;
 	border-radius: 4px;
+	text-decoration: none;
 }
 
 .nav > a.this-page {
