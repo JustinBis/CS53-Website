@@ -31,7 +31,7 @@ a{
 	line-height: 40px;
 }
 
-.nav > span{
+.nav > a{
 	display: inline-block;
 	margin: 0px 10px;
 	width: 100px;
