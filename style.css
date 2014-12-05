@@ -47,6 +47,11 @@ a{
 	background-color: rgba(6, 63, 31, 0.5);
 }
 
+.nav > a:hover{
+	background-color: rgba(0, 240, 80, 0.5);
+	text-decoration: none;
+}
+
 .content{
 	clear: both;
 	margin: 50px 80px;
