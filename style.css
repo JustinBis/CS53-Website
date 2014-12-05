@@ -15,7 +15,7 @@ a{
 	padding: 10px;
 	border: 1px white solid;
 	border-radius: 10px;
-	background-color:#000000;
+	background-color:#111;
 }
 
 .title{
@@ -63,4 +63,29 @@ a{
 .lower{
 	clear: both;
 	margin-top: 20px;
+}
+
+
+.title p{
+
+	margin: 0px auto;
+	display: table;
+	font-size: 51px;
+	text-align: center
+}
+
+#title_text{
+  text-shadow: 1px 1px #5c5;
+	font-size: 53px;
+	color: #289E3F;
+	margin: 0px auto;
+	display: table;
+}
+
+#fadein {
+	opacity: 0;;
+}
+
+.load {
+	opacity: 1;
 }

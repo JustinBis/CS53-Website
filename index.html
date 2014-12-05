@@ -1,12 +1,18 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 </head>
 <body>
 
 <div class="container">
+	<p id="title_text"> CS053: The Matrix in Computer Science </p>
+	
 	<div class="title">
-		<img src="files/matrix_in_cs.gif" />
+
+				<p id="fadein">Reloaded</p>
+
 	</div>
 
 	<div class="nav">
@@ -37,13 +43,16 @@
 			<div class="lower">
 				<br />
 				<h2> Calendar </h2>
-				<iframe src="https://www.google.com/calendar/embed?src=brown.edu_977lkmt71qt08dobpfueilv5dk%40group.calendar.google.com&amp;ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>		
+				<iframe src="https://www.google.com/calendar/embed?src=brown.edu_977lkmt71qt08dobpfueilv5dk%40group.calendar.google.com&amp;ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 		<div>
 
 	</div>
 
 </div>
+<script type="text/javascript">
+$("#fadein").delay(1200).fadeTo(850, 1);
 
+</script>
 
 </body>
 </html>
